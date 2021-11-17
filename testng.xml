@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Spree Commerce Tests" thread-count="2" parallel="methods" data-provider-thread-count="2">
+    <listeners>
+        <listener class-name="com.seleniumframeworks.listeners.TestListeners"></listener>
+        <listener class-name="com.seleniumframeworks.listeners.MethodListeners"></listener>
+    </listeners>
+    <test name="LoginTests">
+        <classes>
+            <class name="com.seleniumframeworks.tests.LoginTests"></class>
+        </classes>
+    </test>
+    <test name="UserTests">
+        <classes>
+            <class name="com.seleniumframeworks.tests.UserManagementTests"></class>
+        </classes>
+    </test>
+</suite>

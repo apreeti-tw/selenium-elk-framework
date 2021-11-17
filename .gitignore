@@ -1,0 +1,9 @@
+target
+.idea
+reports
+.DS_Store
+esdata
+*.pem
+.terraform
+terraform.tfvars
+terraform.tfstate.backup

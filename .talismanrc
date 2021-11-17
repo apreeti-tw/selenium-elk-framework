@@ -1,0 +1,13 @@
+fileignoreconfig:
+- filename: src/main/java/com/seleniumframeworks/pages/OrangeHRMLoginPage.java
+  checksum: c77731a6c45bd0f3657b2cff1abb9ce54bb95943777e9d58ecee24e0ce0f488b
+  ignore_detectors: []
+- filename: src/main/java/com/seleniumframeworks/pages/UserManagementPage.java
+  checksum: ee12a20f18e7d0ec4c10233ad889de44544030e7f9b74230a3971e96fd7878b1
+  ignore_detectors: []
+- filename: src/test/java/com/seleniumframeworks/tests/UserManagementTests.java
+  checksum: ee12655b9e1981e4629aa0d5f753b6e3e15a3d62afde6aca744a5af0c37f3b58
+  ignore_detectors: []
+scopeconfig: []
+
+
